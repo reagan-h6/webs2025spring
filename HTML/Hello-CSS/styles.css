@@ -1,13 +1,23 @@
 body {
   color: #414141;               /* Dark gray */
   background-color: #EEEEEE;    /* Light gray */
+  font-size: 18px;
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 2em;
 }
-And, if you want to alter h2 headings, add another rule:
 
 h2 {
-  font-size: 28px;
+  font-size: 1.6em;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+ul {
+  list-style-type: circle;
+}
+
+ol {
+  list-style-type: lower-roman;
 }
