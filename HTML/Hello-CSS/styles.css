@@ -2,3 +2,12 @@ body {
   color: #414141;               /* Dark gray */
   background-color: #EEEEEE;    /* Light gray */
 }
+
+h1 {
+  font-size: 36px;
+}
+And, if you want to alter h2 headings, add another rule:
+
+h2 {
+  font-size: 28px;
+}
