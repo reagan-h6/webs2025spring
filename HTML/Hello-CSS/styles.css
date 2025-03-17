@@ -13,6 +13,7 @@ h2 {
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: normal;                              /* Add this */
 }
 ul {
   list-style-type: circle;
@@ -20,4 +21,10 @@ ul {
 
 ol {
   list-style-type: lower-roman;
+}
+a {
+  text-decoration: none;
+}
+p {
+  text-align: left;
 }
