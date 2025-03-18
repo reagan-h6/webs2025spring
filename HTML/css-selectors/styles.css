@@ -29,8 +29,8 @@ a:link {
   color: blue;
   text-decoration: none;
 }
-a:visited {
-  color: purple;
+a:visited:hover {
+  color: orange;
 }
 a:hover {
   color: aqua;
