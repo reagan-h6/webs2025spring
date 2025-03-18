@@ -39,3 +39,6 @@ a:hover {
 a:active {
   color: red;
 }
+a:visited:active {
+  color: red;
+}
