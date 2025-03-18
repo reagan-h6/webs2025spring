@@ -22,3 +22,6 @@
   font-style: italic;
   background-color: #EEB75A;    /* Yellow */
 }
+.synopsis em {
+  font-style: normal;
+}
