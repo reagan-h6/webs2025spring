@@ -32,7 +32,7 @@ overflow:hidden;
   margin: 20px auto;
 }
 
-.topnav a:hover a:focus {
+.topnav a:hover {
   background-color: #d9ddde;
   color: black;
 }
