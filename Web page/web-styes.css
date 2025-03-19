@@ -6,6 +6,9 @@ h1 {
   text-align: center;
   font-size: 60px;
 }
+h2 {
+  font-size: 30px;
+}
 .topnav{
 background-color:#4D869C;
 overflow:hidden;
@@ -20,7 +23,7 @@ overflow:hidden;
   font-size: 20px;
   width: 200px;
   box-sizing: border-box;
-  margin: 20px auto; 
+  margin: 20px auto;
 }
 
 .topnav a:hover {
