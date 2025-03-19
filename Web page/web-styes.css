@@ -8,6 +8,7 @@ h1 {
 }
 .topnav{
 background-color:#4D869C;
+overflow:hidden;
 }
 
 .topnav a {
@@ -16,7 +17,10 @@ background-color:#4D869C;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
+  width: 200px;
+  box-sizing: border-box;
+  margin: 20px auto; 
 }
 
 .topnav a:hover {
