@@ -1,4 +1,4 @@
-h1 {
+h1, p {
   background-color: #DDE0E3;    /* Light gray */
 }
 h1 {
@@ -6,83 +6,38 @@ h1 {
   border-bottom: 1px solid #5D6063;
 }
 
-
-.synopsis {
-  color: #7E8184;        /* Light gray */
-  font-style: italic;
+p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
-.button:link,                 /* Change this */
-.button:visited {             /* Change this */
-  display: block;             /* Add this */
-  text-decoration: none;      /* Add this */
-
-  color: #FFF;                /* The rest is the same */
-  background-color: #5995DA;
+em, strong {
+  background-color: #B2D6FF;
+  display: inline;             /* This is the default for em and strong */
+}
+strong {
+  margin: 50px;
+}
+div {
+  color: #FFF;
+  background-color: #4A90E2;
   font-weight: bold;
   padding: 20px;
   text-align: center;
-  border: 2px solid #5D6063;
-  border-radius: 5px;
 
   width: 200px;
-  margin: 20px auto;
+  box-sizing: border-box;
+  margin: 20px auto; /* Vertical  Horizontal */
 }
-.button:hover,
-.button:visited:hover {
-  color: #FFF;
-  background-color: #76AEED;  /* Light blue */
 }
-.button:active,
-.button:visited:active {
-  color: #FFF;
-  background-color: #5995DA;  /* Blue */
+body {
+  text-align: center;
 }
-.page {
-  width: 600px;
-  margin: 0 auto;
-}
-.call-to-action {
-  font-style: italic;
-  background-color: #EEB75A;    /* Yellow */
-}
-.synopsis em {
-  font-style: normal;
-}
-a:link {
-  color: blue;
-  text-decoration: none;
-}
-a:visited:hover {
-  color: orange;
-}
-a:hover {
-  color: aqua;
-  text-decoration: underline;
-}
-a:active {
-  color: red;
-}
-a:visited:active {
-  color: red;
-}
-.call-to-action:link,
-.call-to-action:visited {
-  font-style: italic;
-  background-color: #EEB75A;     /* Yellow */
-}
-
-.call-to-action:hover,
-.call-to-action:visited:hover {
-  background-color: #F5CF8E;     /* Light yellow */
-}
-
-.call-to-action:active,
-.call-to-action:visited:active {
-  background-color: #EEB75A;     /* Yellow */
-}
-p:last-of-type {
-  margin-bottom: 50px;
-}
-#button-2 {
-  color: #5D6063;  /* Dark gray */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
