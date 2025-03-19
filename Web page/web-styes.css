@@ -1,21 +1,18 @@
 h1 {
-  background-color: #DDE0E3;
+  background-color: #a1b8a0;
 }
 h1 {
   padding: 70px;
   text-align: center;
   font-size: 60px;
 }
-background-color:#CDE8E5;
-}
-
 .topnav{
 background-color:#4D869C;
 overflow:hidden;
 }
 
 .topnav a {
-  float: left;
+  float: center;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
