@@ -35,3 +35,7 @@ overflow:hidden;
   background-color: #EDE8DC;
   color: black;
 }
+.sustainabilitygoals a{
+  float: left;
+  vertical-align:left;
+}
