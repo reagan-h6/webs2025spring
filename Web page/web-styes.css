@@ -21,6 +21,6 @@ overflow:hidden;
 }
 
 .topnav a:hover {
-  background-color: white;
-  color: #EDE8DC;
+  background-color: #EDE8DC;
+  color: black;
 }
