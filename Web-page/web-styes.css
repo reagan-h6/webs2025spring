@@ -36,6 +36,10 @@ overflow:hidden;
   background-color: #d9ddde;
   color: black;
 }
+.topnav a: foucus {
+  background-color: #d9ddde;
+  color: black;
+}
 .sustainabilitygoals a {
   float: left;
   vertical-align:left;
