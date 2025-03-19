@@ -25,17 +25,18 @@ overflow:hidden;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  flex-wrap: wrap;
   font-size: 20px;
   width: 200px;
   box-sizing: border-box;
   margin: 20px auto;
 }
 
-.topnav a:hover {
+.topnav a:hover a:focus {
   background-color: #d9ddde;
   color: black;
 }
-.sustainabilitygoals a{
+.sustainabilitygoals a {
   float: left;
   vertical-align:left;
 }
