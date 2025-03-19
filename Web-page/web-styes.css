@@ -6,6 +6,9 @@ h1 {
   text-align: center;
   font-size: 60px;
 }
+.beaker {
+  float:left;
+}
 h2 {
   font-size: 45px;
   text-align: left;
@@ -41,6 +44,8 @@ overflow:hidden;
   color: black;
 }
 .sustainabilitygoals a {
-  float: left;
-  vertical-align:left;
+  float: right;
+}
+.nasa a {
+  float: right;
 }
