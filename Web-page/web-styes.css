@@ -55,6 +55,11 @@ overflow:hidden;
   grid-template-rows: 30px 30px;
   grid-auto-flow: row;
 }
+.parent {
+  display: grid;
+  grid-template-columns: 90px 90px;
+  justify-self:end;
+}
 .item1 {
   grid-column: 5;
   grid-row: 1;
