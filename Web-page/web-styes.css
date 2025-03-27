@@ -1,87 +1,120 @@
 h1 {
   background-color: #a1b8a0;
-}
-h1 {
   padding: 70px;
   text-align: center;
   font-size: 60px;
+  margin: 0;
 }
-.beaker {
-  float:left;
-}
+
 h2 {
   font-size: 45px;
   text-align: left;
 }
+
+h3 {
+  font-size: 35px;
+}
+
 h1, h2, h3, h4, h5, h6, p {
-  font-family: "rockwell", "Arial", sans-serif;
+  font-family: "Rockwell", "Arial", sans-serif;
   font-weight: normal;
 }
-.topnav{
-background-color:#102905;
-overflow:hidden;
+body {
+  margin: 0;
+  padding: 0;
+}
+.beaker {
+  float: left;
+}
+
+.topnav {
+  background-color: #102905;
+  justify-content: flex-start;
+  display: flex;
+  padding: 5px 0;
+  width: 100%;
+  position: relative;
+  top: 0;
 }
 
 .topnav a {
-  float: center;
   color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
+  text-align: left;
+  padding: 8px 16px;
   text-decoration: none;
-  flex-wrap: wrap;
-  font-size: 20px;
-  width: 200px;
+  font-size: 16px;
+  width: fit-content;
+  display: block;
   box-sizing: border-box;
-  margin: 20px auto;
 }
 
-.topnav a:hover {
+.topnav a:hover,
+.topnav a:focus {
   background-color: #d9ddde;
-  color: black;
+  color: #000000;
 }
-.topnav a: foucus {
-  background-color: #d9ddde;
-  color: black;
-}
-.sustainabilitygoals a {
+
+
+.portrait {
   float: right;
+  gap: 10px;
+  padding: 20px;
 }
-.nasa a {
-  float: right;
-}
-.portrait{
-  float: right;
-}
-.wrapper{
+
+.wrapper {
   display: flex;
   flex-wrap: wrap;
-
 }
+
 .container {
   display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-template-rows: auto
+  grid-template-columns: 1fr auto;
+  width: 100%;
+  max-width: 1200px;
+}
+.main-content{
 
 }
-.parent {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-}
-.item {
-  display:flex;
+
+.right-column {
+  display: flex;
   flex-direction: column;
-  grid-column: 3/4;
-  text-align: justify;
+  align-items: flex-end;
+  gap: 10px;
+  padding: 20px;
 }
 
 .zoom-link {
-  display: inline-block; /* Ensure the link has dimensions */
-  transition: transform 0.3s ease; /* Add a smooth transition */
+  display: inline-block;
+  transition: transform 0.3s ease;
 }
 
 .zoom-link:hover {
-  transform: scale(1.2); /* Scale the link to 120% on hover */
+  transform: scale(1.2);
 }
-.imagecaption{
-  font-size: 10px
+
+.imagecaption {
+  font-size: 10px;
+  max-width: 250px;
+  text-align: right;
+}
+
+.footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #a1b8a0;
+  color: white;
+}
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .right-column {
+    align-items: center;
+  }
+
+  .imagecaption p {
+    text-align: center;
+  }
 }
