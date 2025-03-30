@@ -55,7 +55,7 @@ body {
 }
 .portrait {
   float: right;
-  gap: 10px;
+  marhi: 10px;
   padding: 20px;
 }
 .content{
@@ -96,7 +96,9 @@ body {
   max-width: 250px;
   text-align: right;
 }
-
+.indent {
+  margin-left: 20px;
+}
 .footer {
   text-align: center;
   padding: 3px;
